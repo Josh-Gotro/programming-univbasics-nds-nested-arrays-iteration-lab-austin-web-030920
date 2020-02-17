@@ -51,5 +51,5 @@ while row_index < src.count do
 end
 row_index += 1  
 end
-sum_even
+sum_even.sum
 end
