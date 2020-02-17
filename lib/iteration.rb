@@ -1,4 +1,5 @@
 require 'pry'
+# binding.pry
 
 def join_ingredients(src)
   # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
@@ -45,7 +46,6 @@ def total_even_pairs(src)
   sum_even = []
   row_index = 0
 while row_index < src.count do 
-  binding.pry
  if src[row_index].sum % 2 == 0 then
    sum_even << src.row_index
 end
