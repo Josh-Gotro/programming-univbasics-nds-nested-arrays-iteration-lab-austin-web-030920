@@ -46,7 +46,6 @@ def total_even_pairs(src)
   sum_even = []
   row_index = 0
 while row_index < src.count do 
-  element_index =
  if src[row_index[]] % 2 == 0 then
    sum_even << src[row_index].sum
 end
