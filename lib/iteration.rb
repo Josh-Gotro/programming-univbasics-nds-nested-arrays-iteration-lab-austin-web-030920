@@ -52,5 +52,4 @@ end
 row_index += 1  
 end
 sum_even.sum
-binding.pry
 end
