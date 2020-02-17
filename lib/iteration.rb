@@ -44,6 +44,7 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   sum_even = []
+  sum_odd = []
   row_index = 0
 while row_index < src.count do 
  if src[row_index].sum % 2 == 0 then
