@@ -48,8 +48,8 @@ while row_index < src.count do
   binding.pry
  if src[row_index].sum % 2 == 0 then
    sum_even << src.row_index
-  row_index += 1  
 end
+row_index += 1  
 end
 sum_even
 end
